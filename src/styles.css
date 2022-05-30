@@ -1,0 +1,88 @@
+.container {
+  display: block;
+  padding: 5px 30px 45px;
+  background-color: #90c3be;
+  border-radius: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 25px;
+  opacity: 85%;
+}
+body {
+  font-family: "Indie Flower", cursive;
+  font-family: "Titillium Web", sans-serif;
+}
+h1 {
+  font-weight: bold;
+  color: #fae95f;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 50px;
+}
+h2 {
+  font-size: smaller;
+  color: #fae95f;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.temperature {
+  font-size: 75px;
+  color: #fae95f;
+  text-align: center;
+}
+.card {
+  border-radius: 45px;
+  max-width: 250px;
+  background-color: transparent;
+  border-color: #fae95f;
+  border-style: ridge;
+}
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+.search-input {
+  border-radius: 20px;
+}
+.search {
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+}
+.user-location-button {
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+  color: gray;
+}
+
+div.card-temperature-now {
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  border-color: #fae95f;
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+}
+.weather-data {
+  color: #fae95f;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+#bg-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
