@@ -86,3 +86,7 @@ div.card-temperature-now {
   left: 0;
   z-index: -1;
 }
+.link-to-repository {
+  text-align: center;
+  color: gray;
+}
